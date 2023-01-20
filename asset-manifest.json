@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/axp-coc-alexa-feature/static/css/main.229c7921.css",
+    "main.js": "/axp-coc-alexa-feature/static/js/main.38bb3ff8.js",
+    "index.html": "/axp-coc-alexa-feature/index.html",
+    "main.229c7921.css.map": "/axp-coc-alexa-feature/static/css/main.229c7921.css.map",
+    "main.38bb3ff8.js.map": "/axp-coc-alexa-feature/static/js/main.38bb3ff8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.229c7921.css",
+    "static/js/main.38bb3ff8.js"
+  ]
+}
