@@ -13,9 +13,9 @@ code {
     monospace;
 }
 
-.p1{font-style: normal; color: white; background-color: dodgerblue; padding: 10px; text-align: center;}
-.p2{font-style: normal; color: white; background-color: dodgerblue; margin-left: 826px; text-align: center;}
-.p3{margin-left: 175px;}
+.p1{float: left; color: white; background-color: dodgerblue; padding: 5px;}
+.p2{font-style: normal; color: white; background-color: dodgerblue; text-align: right;}
+.p3{margin-left: 150px;}
 
 * {
   box-sizing: border-box;
@@ -39,7 +39,7 @@ code {
 
 .column.c {
   display: inline-block;
-  width: 73%;
+  width: 130%;
   height: 510px;
   padding: 5px;
   background-color: white;
@@ -51,14 +51,15 @@ code {
 .column.d{
   display: inline-block;
   width: 1%;
-  height: 500px;
+  height: 480px;
   padding: 5px;
+  margin-top: 15px;
   background-color: rgb(168,168,168);
 }
 
 .column.e {
   display: inline-block;
-  width: 73%;
+  width: 130%;
   height: 30px;
   padding: 5px;
   background-color: white;
@@ -126,8 +127,8 @@ th {
   background-color: rgb(247,244,244);
 }
 
-@media screen and (max-width: 600px) {
-  .column.a, .column.b,.column.c,.column.d {
+@media screen and (max-width: 1000px) {
+  .column, .p1 {
     width: 100%;
   }
 }

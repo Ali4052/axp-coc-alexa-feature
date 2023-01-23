@@ -9,30 +9,37 @@ function Alexa({Disclosure, setFlag }) {
     }
 
     return (
-        <div>
-            <p1 className="p1"><b>AMERICAN EXPRESS</b> | Customer Value Portal <p1 className="p2">|&emsp;&emsp;|&emsp;&emsp;User</p1></p1>
-            <div>
-                <div className="column b">
-                    <h1>FNAME LNAME</h1>
-                    <p>member since 1992(27 years)</p>
-                    <hr></hr>
-                    <h4>Consumer</h4>
-                    <p>Rewards exchanged ...............Yes</p>
-                    <p>AMEX share of wallet ..........high</p>
-                    <hr></hr>
-                    <h3>Card currently being serviced</h3>
-                    <p className="p3">AQUISITION</p>
-                    <p>1234567890&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A0000009WGW</p>
-                    <br></br>
-                    <button className="btn1">Cancel reasons</button>
-                </div>
-                <div className="column d">
-                    <p>&ensp;&ensp;&ensp;&ensp;</p>
-                </div>
+        <div className="container">
+        <div className="row">
+            <div className="col-sm-4 p1">
+                <p1><b>AMERICAN EXPRESS</b> | Customer Value Portal</p1> 
+            </div>   
+            <div className="col-sm-8 p2">
+                <p>|&emsp;&emsp;|&emsp;&emsp;User</p>
+            </div>                        
+        </div>
+        <div className="row">
+            <div className="col-sm-4 column b">
+            <h1>FNAME LNAME</h1>
+                <p>member since 1992(27 years)</p>
+                <hr></hr>
+                <h4>Consumer</h4>
+                <p>Rewards exchanged ...............Yes</p>
+                <p>AMEX share of wallet ..........high</p>
+                <hr></hr>
+                <h3>Card currently being serviced</h3>
+                <p className="p3">AQUISITION</p>
+                <p>1234567890&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A0000009WGW</p>
+                <br></br>
+                <button className="btn1">Cancel reasons</button>  
+            </div>
+            <div className="col-sm-1 column d">
+                <p>&ensp;&ensp;&ensp;&ensp;</p>
+            </div>
+            <div className="col-sm-7">
                 <div>
-                    <div className="column e">
-                        <p1>CVP overview</p1>
-                    </div>
+                    <p1 className="column e">CVP overview</p1>
+                </div>
                     <br></br>
                     <br></br>
                     <div className="column c">
