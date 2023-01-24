@@ -20,7 +20,7 @@ function Mainpage({setFlag, setDisclosure}) {
     }
 
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-sm-4 p1">
                     <p1><b>AMERICAN EXPRESS</b> | Customer Value Portal</p1> 

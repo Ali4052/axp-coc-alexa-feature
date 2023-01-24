@@ -1,12 +1,29 @@
 import React from 'react';
+import {firestore} from './firebase';
+import {addDoc, collection } from '@firebase/firestore';
 
 function Alexa({Disclosure, setFlag }) {
+
+    const ref = collection (firestore,"Disclosure");
 
     console.log(Disclosure);
 
     function goback() {
         setFlag(false);
     }
+    
+    const handleSave = async (e) => {
+        e.preventDefault();
+        console.log(Disclosure);
+        let data = {message: Disclosure};
+
+        try {
+            addDoc(ref,data);
+        }
+        catch(e){
+            console.log(e);
+        }
+    };
 
     return (
         <div className="container">
@@ -65,7 +82,7 @@ function Alexa({Disclosure, setFlag }) {
                         <button className="btn2"><b>Decline</b></button>
                         <button className="btn3" onClick={goback}><b>Back</b></button>&ensp;&ensp;
                         <button className="btn2"><b>cancel</b></button>&ensp;&ensp;&ensp;
-                        <button className="btn4"><b>Send to Alexa</b></button>
+                        <button className="btn4" type="submit"  onClick={handleSave}><b>Send to Alexa</b></button>
                     </div>
                 </div>
             </div>
