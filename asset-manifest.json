@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/axp-coc-alexa-feature/static/css/main.356dcd3a.css",
-    "main.js": "/axp-coc-alexa-feature/static/js/main.799f9f2e.js",
+    "main.js": "/axp-coc-alexa-feature/static/js/main.bb97fb6f.js",
     "index.html": "/axp-coc-alexa-feature/index.html",
     "main.356dcd3a.css.map": "/axp-coc-alexa-feature/static/css/main.356dcd3a.css.map",
-    "main.799f9f2e.js.map": "/axp-coc-alexa-feature/static/js/main.799f9f2e.js.map"
+    "main.bb97fb6f.js.map": "/axp-coc-alexa-feature/static/js/main.bb97fb6f.js.map"
   },
   "entrypoints": [
     "static/css/main.356dcd3a.css",
-    "static/js/main.799f9f2e.js"
+    "static/js/main.bb97fb6f.js"
   ]
 }
