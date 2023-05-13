@@ -44,7 +44,7 @@ function Alexa({Disclosure, setFlag }) {
                 <p>Rewards exchanged ...............Yes</p>
                 <p>AMEX share of wallet ..........high</p>
                 <hr></hr>
-                <h3>Card currently being serviced hello</h3>
+                <h3>Card currently being serviced hi</h3>
                 <p className="p3">AQUISITION</p>
                 <p>1234567890&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;A0000009WGW</p>
                 <br></br>
